@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+.left-content {
+  line-height: 50px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  margin-right: 50px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #777777;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+button {
+  font-weight: bold;
+  padding: 15px 40px;
+  color: white;
+  background-color: #4458dc;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  color: #4458dc;
+  background-color: white;
+  border: 1px #4458dc solid;
+}
